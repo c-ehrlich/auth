@@ -76,6 +76,7 @@ const AuthShowcase: React.FC = () => {
       >
         {sessionData ? "Sign out" : "Sign in"}
       </button>
+      <pre>{JSON.stringify(sessionData, null, 2)}</pre>
     </div>
   );
 };
